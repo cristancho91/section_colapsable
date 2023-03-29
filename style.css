@@ -1,0 +1,41 @@
+body{
+    font-size: 1.3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.colapsable{
+    background-color: rgb(25, 13, 95);
+    color: #fff;
+    cursor: pointer;
+    padding: 20px;
+    width: 300px;
+    border: none;
+    text-align: center;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1em;
+    -moz-transition: height 0.5s ease;
+    transition: height 0.5s ease;
+}
+
+.colapsable:hover{
+    background-color: chocolate;
+}
+
+.content{
+    text-align: justify;
+    width: 264px;
+    padding: 18px;
+    display: none;
+    background-color: rgb(25, 58, 58);
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.25);
+
+}
+footer{
+    padding: 10px;
+    margin-top: 10px;
+    color: rgb(25, 13, 95);
+    font-weight: bold;
+}
